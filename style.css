@@ -9,6 +9,10 @@
     background:#bdd9e4;
 }
 
+h3{
+    line-height: 15px;
+}
+
 /*...header...............*/
 
 header {
@@ -91,4 +95,53 @@ footer p{
     color: #ffffff;
     border-top: #44dddd 10px solid;
     margin-top: 0;
+
+}
+
+/*....Contact box.....................*/
+
+.contact_box{
+    margin: 20px 20px 20px 20px;
+    background: #ebebeb;
+    height: 425px;
+    
+}
+.contact_box h3 {
+    margin-left: 10px;
+}
+
+.contact_box button {
+    margin-left: 10px;
+}
+
+.contact_box input{
+    text-decoration: none;
+    width: 650px;
+    height: 12px;
+    margin: 20px 20px 20px 20px;
+}
+
+.contact_box input[type="message"] {
+    text-decoration: none;
+    width: 650px;
+    height: 100px;
+   
+}
+
+.contact_box button{
+ 
+    border: none;
+    background: #44dddd;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    
+   
+}
+
+.contact_box textarea{
+    text-decoration: none;
+    width: 650px;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
 }
