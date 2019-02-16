@@ -104,21 +104,20 @@ footer p{
     margin: 20px 20px 20px 20px;
     background: #ebebeb;
     height: 425px;
+    padding: 40px;
     
 }
 .contact_box h3 {
     margin-left: 10px;
+    margin-top: 0;
 }
 
-.contact_box button {
-    margin-left: 10px;
-}
 
 .contact_box input{
     text-decoration: none;
     width: 650px;
     height: 12px;
-    margin: 20px 20px 20px 20px;
+    margin: 15px 20px 20px 20px;
 }
 
 .contact_box input[type="message"] {
@@ -129,19 +128,67 @@ footer p{
 }
 
 .contact_box button{
- 
     border: none;
     background: #44dddd;
     height: 30px;
     width: 60px;
     text-align: center;
-    
-   
+    margin-left: 10px;
+    float: left;
 }
 
 .contact_box textarea{
     text-decoration: none;
     width: 650px;
     height: 100px;
-    margin: 20px 20px 20px 20px;
+    margin: 15px 20px 20px 20px;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+input{
+    padding: 5px;
+}
+
+/*...portfolio...............................*/
+
+.porfolio_box{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+}
+
+.P_box1{
+    margin: 20px;
+  
+}
+
+.large_icons{
+    height:200px;
+    width: 200px;
+    float: left;
+    margin: 20px 20px 160px 160px;
+    position: relative;
+    z-index: 1;
+}
+
+.t_box1 li{
+    width: 200px;
+    height: 35px;
+    padding-top: 10px;
+    color: #ffffff;
+    background: #44dddd;
+    opacity: 9;
+    float: left;
+    text-align: center;
+    margin: 0px 0px 160px 160px;
+    position: relative;
+    z-index: 2;
+    top: -200;
+    left: 20;
 }
