@@ -192,3 +192,93 @@ input{
     top: -800;
     left: 20;
 }
+
+/*..................... media query .....................................*/
+
+@media screen and (max-width : 980px) {
+
+}
+
+@media screen and (max-width : 768px) {
+
+    .container{
+        width: 500px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    padding-top:20px;
+    min-height: 51px;
+    border-bottom: #272626 2px solid;
+    margin-bottom: 0px;
+}
+
+#showcase{
+    float: left;
+    background: #fdfdfd;
+    width: 500px;
+    min-height: 600px;
+    color: #000000;
+}
+
+p{
+    line-height: 1.6;
+    padding: 1px 1px 1px 1px;
+ }
+
+}
+
+@media screen and (max-width : 640px) {
+
+    .container{
+        width: 400px;
+        margin: auto;
+        overflow: none;
+    }
+
+    #branding{
+        text-align: center;
+        background: #44dddd;
+        width: auto;
+        height: 50px;
+        color: #ffffff;
+        float: none;
+    }
+    
+    header h1{
+        margin: 0;
+        text-align: center;
+        float: none;
+        width: 100%;
+        display: inline;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline;
+        padding: 0 20px 0 20px;
+        
+    header nav{
+        margin:0 auto;
+        float: none;
+        
+    }
+
+    #showcase{
+        float: left;
+        background: #fdfdfd;
+        width: 400px;
+        height: auto;
+        color: #000000;
+    }
+
+    p{
+        line-height: 1.6;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px 1px 1px;
+     }
+
+}
